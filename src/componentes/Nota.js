@@ -2,14 +2,14 @@ import React from "react";
 import { StyleSheet, Text, View } from "react-native";
 
 
-export function Nota() {
+export default function Nota({item}) {
   const categorias = {Pessoal: "#FF924F", Outros: "#00911F", Trabalho: "#2F71EB"}
   const style = styleFunction(categorias["Pessoal"])
   
-
+console.log(item.item)
   return (
     <View style={style.cartao}>
-      <Text style={style.texto} numberOfLines={5}>Lorem ipsum</Text>
+      <Text style={style.texto} numberOfLines={5}>{item.item[1]}</Text>
     </View>
   )
 }

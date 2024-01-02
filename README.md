@@ -58,3 +58,7 @@ E chame-a dentro de salvarNota
 Cadastre uma nova nota e verifique no seu terminal se um LOG com o conteúdo da nota foi exibido.
 
 ______
+
+### Gerando ID dinâmico
+
+Crie uma nova função para gerar o ID.
